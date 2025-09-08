@@ -32,12 +32,12 @@ public class StartWindow : GenericWindow
 
     public void OnClickNewGame()
     {
-        manager.Open(Windows.Toggles);
+        manager.Open(Windows.Keyboard);
 
     }
 
     public void OnClickOption()
     {
-        Debug.Log("¿É¼Ç");
+        manager.Open(Windows.Toggles);
     }
 }

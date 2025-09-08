@@ -75,7 +75,7 @@ public class SaveDataV4 : SaveData
     public string Name { get; set; } = string.Empty;
     public int Gold;
     public List<SaveItemData> ItemList = new List<SaveItemData>();
-    public Toggle[] toggles = new Toggle[3];
+    public bool[] toggleStates = new bool[3];
 
     public SaveDataV4()
     {
